@@ -679,6 +679,8 @@ export default function Landing() {
                 Facebook
                 <span className={styles.contactSub}>/Robe.Farol</span>
               </a>
+
+              <Link to='/login-admin'>Login</Link>
             </div>
 
             <div className={styles.contactFooterRow}>
