@@ -79,22 +79,22 @@ module.exports = {
     }
   },
 
-  verifyEmail: async (req, res) => {
-    try {
-      const { token } = req.query;
-      if (!token) return res.status(400).send('Token missing');
-      const user = await User.findOne({ emailToken: token });
-      if (!user) return res.status(400).send('Invalid token');
-      user.emailVerified = true;
-      user.emailToken = null;
-      await user.save();
-      const redirectUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/verify-success`;
-      return res.redirect(redirectUrl);
-    } catch (err) {
-      console.error('verifyEmail err', err);
-      return res.status(500).send('Server error');
-    }
-  },
+  // verifyEmail: async (req, res) => {
+  //   try {
+  //     const { token } = req.query;
+  //     if (!token) return res.status(400).send('Token missing');
+  //     const user = await User.findOne({ emailToken: token });
+  //     if (!user) return res.status(400).send('Invalid token');
+  //     user.emailVerified = true;
+  //     user.emailToken = null;
+  //     await user.save();
+  //     const redirectUrl = `${process.env.FRONTEND_URL || 'http://localhost:'}/verify-success`;
+  //     return res.redirect(redirectUrl);
+  //   } catch (err) {
+  //     console.error('verifyEmail err', err);
+  //     return res.status(500).send('Server error');
+  //   }
+  // },
 
   googleAuth: async (req, res) => {
     try {
