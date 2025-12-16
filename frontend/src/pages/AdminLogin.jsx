@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../api.js";
@@ -13,34 +12,21 @@ export default function AdminLogin() {
   const nav = useNavigate();
 
   async function handleLogin(e) {
-  e.preventDefault();
+    e.preventDefault();
 
-  // === DEV HACK: hardcoded admin credentials (DEV ONLY) ===
-  const DEV_EMAIL = "pcshopfarol@admin-cics.com";
-  const DEV_PASS = "admin-cics-3103-sia";
+    // HARD-CODED ADMIN CREDENTIALS
+    if (
+      email === "pcshopfarol@admin-cics.com" &&
+      password === "admin-cics-3103-sia"
+    ) {
+      // kahit anong string, token name lang
+      saveAdminToken("ADMIN_LOGGED_IN");
+      nav("/adminpage/dashboard");
+      return;
+    }
 
-  if (email === DEV_EMAIL && password === DEV_PASS) {
-    // save a fake/dev token into localStorage so the rest of your app behaves normally
-    // (make sure saveAdminToken is imported correctly)
-    saveAdminToken("dev-admin-token-000"); // <-- any string works for your client-side checks
-    console.warn("DEV LOGIN: bypassed server (dev-only). Token saved to localStorage.");
-    nav("/adminpage/dashboard");
-    return; // skip the real API call
+    alert("Invalid admin credentials");
   }
-
-  // === Normal behavior (fallback) ===
-  try {
-    const res = await api.post("/auth/admin/login", { email, password });
-    const token = res.data.token;
-    if (!token) return alert("No token received");
-    saveAdminToken(token);
-    nav("/adminpage/dashboard");
-  } catch (err) {
-    console.error("Login error:", err);
-    alert(err?.response?.data?.message || "Login failed");
-  }
-}
-
 
   const [passType, setPassType] = useState("password");
 

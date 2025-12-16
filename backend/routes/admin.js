@@ -3,7 +3,7 @@ const router = express.Router();
 const auth = require('../middlewares/auth');
 const adminController = require('../controllers/adminController');
 
-router.use(auth);
+// router.use(auth);
 
 router.get('/dashboard-data', adminController.dashboardData); 
 // router.get('/dashboard', adminController.dashboard);

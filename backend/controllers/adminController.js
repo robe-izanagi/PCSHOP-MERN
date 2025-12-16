@@ -168,7 +168,8 @@ module.exports = {
         return res.status(400).json({ message: 'Feedback entry not found' });
       }
 
-      const adminEmailFinal = adminEmail || (req.user && req.user.email) || 'admin';
+      const adminEmailFinal = adminEmail || "pcshopfarol@admin-cics.com";
+
 
       p.feedback[idx].reply = {
         adminEmail: adminEmailFinal,
