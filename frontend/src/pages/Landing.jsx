@@ -680,7 +680,9 @@ export default function Landing() {
                 <span className={styles.contactSub}>/Robe.Farol</span>
               </a>
 
-              <Link to='/login-admin'>Login</Link>
+              <Link to="/login-admin" className={styles.contactBtn}>
+                Login Admin
+              </Link>
             </div>
 
             <div className={styles.contactFooterRow}>
