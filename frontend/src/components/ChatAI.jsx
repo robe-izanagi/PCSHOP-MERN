@@ -26,7 +26,7 @@ const ChatAI = () => {
     if (query.includes('location') || (query.includes('store') && !query.includes('online')) || query.includes('saan') && !query.includes('online')) {
       return `Our store is located in Malvar, Batangas, near BSU Malvar Campus. Coordinates: Latitude 14.044464779438496, Longitude 121.1575209078627. You can find us on Google Maps: https://www.google.com/maps?q=${14.044464779438496},${121.1575209078627}`;
     } else if (query.includes('online store') || query.includes('online shop') || query.includes('makakapunta') || query.includes('order page') || query.includes('umorder online')) {
-      return "By clicking any 'Shop Now' button, or go to this site: http://localhost:5173/order-page";
+      return "By clicking any 'Shop Now' button, or go to this site: /order-page";
     } else if (query.includes('asus rog') || query.includes('pc build') || query.includes('component')) {
       return "We specialize in ASUS ROG PC builds and components! From high-performance GPUs to custom motherboards, we have everything you need for your gaming rig. Browse our catalog for the latest ROG products.";
     } else if (query.includes('price') || query.includes('cost')) {
