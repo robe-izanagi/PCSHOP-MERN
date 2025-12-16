@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./css/landing.module.css";
 import Asus from "../assets/image/asus.png";
 import ChatAI from "../components/ChatAI";
@@ -680,9 +680,13 @@ export default function Landing() {
                 <span className={styles.contactSub}>/Robe.Farol</span>
               </a>
 
-              <Link to="/login-admin" className={styles.contactBtn}>
+              <button
+                type="button"
+                onClick={nav("/login-admin")}
+                className={styles.contactBtn}
+              >
                 Login Admin
-              </Link>
+              </button>
             </div>
 
             <div className={styles.contactFooterRow}>
