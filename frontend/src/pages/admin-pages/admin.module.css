@@ -1,0 +1,26 @@
+
+.mainContainer {
+  height: 100%;
+  /* width: 100vw; */
+  display: flex;
+  position: relative;
+  background: var(--card);
+  scrollbar-width: thin;
+  scrollbar-color: var(--choco) var(--card);
+}
+
+.mainContent {
+  overflow-x: hidden;
+  min-width: 670px;
+  width: 100%;
+  height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--choco) var(--card);
+  margin-left: 400px;
+}
+
+@media (max-width: 880px) {
+  .mainContent {
+    margin-left: 80px;
+  }
+} 

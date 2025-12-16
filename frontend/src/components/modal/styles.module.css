@@ -1,0 +1,17 @@
+.modalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.426);
+  z-index: 100;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.modalDatas {
+  z-index: 101;
+}

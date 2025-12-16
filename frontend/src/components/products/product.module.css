@@ -1,0 +1,186 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  gap: 34px;
+  padding-bottom: 120px;
+  color: #fff;
+  padding-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  text-align: end;
+  width: 90%;
+  height: 100%;
+  margin-top: -100px;
+}
+
+
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 38px;
+  margin: 0 0 12px 0;
+  color: white;
+}
+
+.lead {
+  font-family: var(--font-body);
+  opacity: 0.9;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.cta {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  align-self: center;
+}
+
+@media (max-width: 980px) {
+  .right {
+    width: 100%;
+  }
+}
+
+.carousel {
+  position: relative;
+  height: 100%;
+}
+
+.card {
+  /* background: var(--black); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.85);
+  height: 500px;
+  width: auto;
+  border-radius: 16px;
+  overflow: visible;
+  transition: all 420ms cubic-bezier(.2, .9, .2, 1);
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 30;
+  pointer-events: auto;
+}
+
+.rightCard {
+  transform: translate(-30%, -50%) scale(0.9);
+  opacity: 0.2;
+  z-index: 20;
+  pointer-events: auto;
+}
+
+.leftCard {
+  transform: translate(-70%, -50%) scale(0.9);
+  opacity: 0.2;
+  z-index: 20;
+  pointer-events: auto;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translate(200%, -50%) scale(0.7);
+  z-index: 10;
+}
+
+.badge {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(34, 34, 34, 0.685);
+  color: white;
+  border: none;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  scale: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.arrowLeft:hover,
+.arrowRight:hover {
+  background: rgba(61, 61, 61, 0.885);
+}
+
+.arrowLeft {
+  left: -1vw;
+}
+
+.arrowRight {
+  right: -1vw;
+  margin-right: 60px;
+}
+
+.dots {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+  border: none;
+  transform: translateY(80px);
+}
+
+.dotActive {
+  background: white;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <id>693bc7cf40da15b90a35fb3c</id>
+    <fullname/>
+    <email>robeizagani@gmail.com</email>
+    <emailVerified>true</emailVerified>
+    <createdAt>2025-12-12T07:44:15.395Z</createdAt>
+    <updatedAt>2025-12-12T07:44:15.395Z</updatedAt>
+  </user>
+  <user>
+    <id>693c3a5440da15b90a35fc1e</id>
+    <fullname/>
+    <email>robertofarol10145@gmail.com</email>
+    <emailVerified>true</emailVerified>
+    <createdAt>2025-12-12T15:52:52.187Z</createdAt>
+    <updatedAt>2025-12-12T15:52:52.187Z</updatedAt>
+  </user>
+</users>

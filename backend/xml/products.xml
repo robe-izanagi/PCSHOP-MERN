@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<products>
+  <product>
+    <id>693bb403c228e61ab96ccbf2</id>
+    <sku>GPU-ROG-RTX4090-OC</sku>
+    <name>ASUS ROG Strix GeForce RTX 4090 OC Edition 24GB GDDR6X</name>
+    <brand>ASUS ROG</brand>
+    <category>gpu</category>
+    <price>149995</price>
+    <stock>5</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <vram>24GB GDDR6X</vram>
+      <model>RTX 4090</model>
+      <boost>2640 MHz</boost>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/7B5FEBFE-4494-4AAB-AFB8-BFEB034E7C24/w1000/h732</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.228Z</createdAt>
+    <updatedAt>2025-12-12T06:50:09.451Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccbf5</id>
+    <sku>GPU-ROG-RTX4080S-OC</sku>
+    <name>ASUS ROG Strix GeForce RTX 4080 SUPER OC 16GB</name>
+    <brand>ASUS ROG</brand>
+    <category>gpu</category>
+    <price>98995</price>
+    <stock>7</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <vram>16GB GDDR6X</vram>
+      <model>RTX 4080 SUPER</model>
+      <boost>2640 MHz</boost>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/090C91F5-62E1-4C17-8A58-53D4C941795D/v1/img/aura/aura-pd.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.237Z</createdAt>
+    <updatedAt>2025-12-12T06:49:29.245Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccbf8</id>
+    <sku>GPU-ROG-RTX4070TI-S</sku>
+    <name>ASUS ROG Strix GeForce RTX 4070 Ti SUPER 16GB</name>
+    <brand>ASUS ROG</brand>
+    <category>gpu</category>
+    <price>67995</price>
+    <stock>10</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <vram>16GB GDDR6X</vram>
+      <model>RTX 4070 Ti SUPER</model>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/798C35E3-EF80-4568-9071-F2B4A0F86703/v1/img/aura/aura-pd.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.242Z</createdAt>
+    <updatedAt>2025-12-12T06:48:14.993Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccbfb</id>
+    <sku>GPU-ROG-RTX4070-OC</sku>
+    <name>ASUS ROG Strix GeForce RTX 4070 OC 12GB</name>
+    <brand>ASUS ROG</brand>
+    <category>gpu</category>
+    <price>47995</price>
+    <stock>12</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <vram>12GB GDDR6X</vram>
+      <model>RTX 4070</model>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/9F703D1B-01A8-4FD1-87D2-B389262C6835/w1000/h732</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.248Z</createdAt>
+    <updatedAt>2025-12-12T06:47:21.927Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccbfe</id>
+    <sku>GPU-ROG-RTX4060TI</sku>
+    <name>ASUS ROG Strix GeForce RTX 4060 Ti 8GB</name>
+    <brand>ASUS ROG</brand>
+    <category>gpu</category>
+    <price>29995</price>
+    <stock>15</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <vram>8GB GDDR6</vram>
+      <model>RTX 4060 Ti</model>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/D062DBDD-12EF-4D57-93D2-21E98671085C/v1/img/kv/pd.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.255Z</createdAt>
+    <updatedAt>2025-12-12T06:46:30.439Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc01</id>
+    <sku>MB-ROG-Z790-E</sku>
+    <name>ASUS ROG Strix Z790-E Gaming WiFi II</name>
+    <brand>ASUS ROG</brand>
+    <category>motherboard</category>
+    <price>31995</price>
+    <stock>8</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <chipset>Z790</chipset>
+      <socket>LGA1700</socket>
+      <ram>DDR5</ram>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/E8F9316B-CB25-42B5-9422-CA99338CDB38/v1/img/performance/pcie-5.0.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.259Z</createdAt>
+    <updatedAt>2025-12-12T06:52:53.133Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc04</id>
+    <sku>MB-ROG-B760-F</sku>
+    <name>ASUS ROG Strix B760-F Gaming WiFi</name>
+    <brand>ASUS ROG</brand>
+    <category>motherboard</category>
+    <price>16995</price>
+    <stock>12</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <chipset>B760</chipset>
+      <socket>LGA1700</socket>
+      <ram>DDR5</ram>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/53D30A49-0B79-48F2-AD43-DEB7F954AE2B/v1/img/performance/pcie-pd.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.264Z</createdAt>
+    <updatedAt>2025-12-12T06:51:30.809Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc07</id>
+    <sku>MB-ROG-X670E-E</sku>
+    <name>ASUS ROG Crosshair X670E Hero</name>
+    <brand>ASUS ROG</brand>
+    <category>motherboard</category>
+    <price>39995</price>
+    <stock>6</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <chipset>X670E</chipset>
+      <socket>AM5</socket>
+      <ram>DDR5</ram>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/0CBC145C-59B8-4B51-BF1A-DA0749FA1522/v1/img/cooling/headers/header-base.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.270Z</createdAt>
+    <updatedAt>2025-12-12T06:52:15.264Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc0a</id>
+    <sku>PSU-ROG-THOR-1200P2</sku>
+    <name>ASUS ROG Thor 1200W Platinum II</name>
+    <brand>ASUS ROG</brand>
+    <category>psu</category>
+    <price>22995</price>
+    <stock>10</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <watt>1200W</watt>
+      <rating>80+ Platinum</rating>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/684DD066-82FC-4C2B-A0DB-7957EA004D40</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.277Z</createdAt>
+    <updatedAt>2025-12-12T07:20:21.423Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc0d</id>
+    <sku>PSU-ROG-LOKI-850</sku>
+    <name>ASUS ROG Loki 850W Platinum SFX-L</name>
+    <brand>ASUS ROG</brand>
+    <category>psu</category>
+    <price>14995</price>
+    <stock>14</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <watt>850W</watt>
+      <rating>Platinum</rating>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/20346B84-3DC1-40D9-81A5-12D6E90E2386/v1/img/overview/ROG-Loki-SFX-L-850W-Platinum.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.288Z</createdAt>
+    <updatedAt>2025-12-12T07:18:53.869Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc10</id>
+    <sku>RAM-ROG-STRIX-32GB</sku>
+    <name>ASUS ROG Strix 32GB (2×16) DDR5 6400MHz</name>
+    <brand>ASUS ROG</brand>
+    <category>ram</category>
+    <price>16995</price>
+    <stock>20</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <size>32GB</size>
+      <speed>6400MHz</speed>
+      <type>DDR5</type>
+    </specs>
+    <images>
+      <image>https://mizzostore.com/cdn/shop/files/p_lancer_ddr5_rog_5_700x_4060f5e3-a0d1-4687-a2fd-1055ec6c3255.webp?v=1731693639&amp;width=700</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.294Z</createdAt>
+    <updatedAt>2025-12-12T08:11:32.780Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc13</id>
+    <sku>RAM-ROG-STRIX-64GB</sku>
+    <name>ASUS ROG Strix 64GB (2×32) DDR5 6000MHz</name>
+    <brand>ASUS ROG</brand>
+    <category>ram</category>
+    <price>29995</price>
+    <stock>10</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <size>64GB</size>
+      <speed>6000MHz</speed>
+      <type>DDR5</type>
+    </specs>
+    <images>
+      <image>https://mizzostore.com/cdn/shop/files/p_lancer_ddr5_rog_5_700x_4060f5e3-a0d1-4687-a2fd-1055ec6c3255.webp?v=1731693639&amp;width=700</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.317Z</createdAt>
+    <updatedAt>2025-12-12T06:58:20.469Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc16</id>
+    <sku>SSD-ROG-HYPERION-1TB</sku>
+    <name>ASUS ROG Strix SQ7 NVMe PCIe 4.0 1TB SSD</name>
+    <brand>ASUS ROG</brand>
+    <category>ssd</category>
+    <price>8995</price>
+    <stock>30</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <size>1TB</size>
+      <type>NVMe PCIe 4.0</type>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/FC3B53D4-55AC-46C0-922B-1309F5765ECE</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.323Z</createdAt>
+    <updatedAt>2025-12-12T06:59:15.367Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc19</id>
+    <sku>SSD-ROG-HYPERION-2TB</sku>
+    <name>ASUS ROG Strix SQ7 NVMe PCIe 4.0 2TB SSD</name>
+    <brand>ASUS ROG</brand>
+    <category>ssd</category>
+    <price>15995</price>
+    <stock>25</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <size>2TB</size>
+      <type>NVMe PCIe 4.0</type>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/FC3B53D4-55AC-46C0-922B-1309F5765ECE</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.336Z</createdAt>
+    <updatedAt>2025-12-12T07:17:37.751Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc1c</id>
+    <sku>CASE-ROG-HELIOS</sku>
+    <name>ASUS ROG Strix Helios GX601</name>
+    <brand>ASUS ROG</brand>
+    <category>case</category>
+    <price>15995</price>
+    <stock>10</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <type>Mid Tower</type>
+      <rgb>true</rgb>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/24CDD4E4-1FC5-4034-A289-8212BE7F4573/w1000/h732</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.341Z</createdAt>
+    <updatedAt>2025-12-12T06:42:25.539Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc1f</id>
+    <sku>CASE-ROG-HYPERION</sku>
+    <name>ASUS ROG Hyperion GR701</name>
+    <brand>ASUS ROG</brand>
+    <category>case</category>
+    <price>27995</price>
+    <stock>6</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <type>Full Tower</type>
+      <rgb>true</rgb>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/28DBE018-16C0-47B6-9F9E-FDFB9DD66DBF/w1000/h732</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.346Z</createdAt>
+    <updatedAt>2025-12-12T06:42:59.338Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc22</id>
+    <sku>COOLER-ROG-RYUJIN3-360</sku>
+    <name>ASUS ROG Ryujin III 360 ARGB</name>
+    <brand>ASUS ROG</brand>
+    <category>cooler</category>
+    <price>22995</price>
+    <stock>9</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <type>AIO 360mm</type>
+      <screen>3.5" LCD</screen>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/A1D6D78A-00BE-4F89-A360-2790312CDDAD</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.352Z</createdAt>
+    <updatedAt>2025-12-12T06:43:58.900Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc25</id>
+    <sku>COOLER-ROG-RYUO3-240</sku>
+    <name>ASUS ROG Ryuo III 240 ARGB</name>
+    <brand>ASUS ROG</brand>
+    <category>cooler</category>
+    <price>14995</price>
+    <stock>12</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <type>AIO 240mm</type>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/D2ADE251-2A00-4CD4-968B-31A325793FC0/w717/h525/fwebp</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.357Z</createdAt>
+    <updatedAt>2025-12-12T06:44:43.172Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc28</id>
+    <sku>ACC-ROG-KB-FALCHION</sku>
+    <name>ASUS ROG Falchion 65% Wireless Mechanical Keyboard</name>
+    <brand>ASUS ROG</brand>
+    <category>accessory</category>
+    <price>8995</price>
+    <stock>15</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <type>Wireless</type>
+      <switches>ROG RX</switches>
+    </specs>
+    <images>
+      <image>https://ecommerce.datablitz.com.ph/cdn/shop/products/3_55ad5a45-95a7-413f-9d4b-2357a35202d3_800x.png?v=1676808420</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.364Z</createdAt>
+    <updatedAt>2025-12-12T16:25:39.752Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc2b</id>
+    <sku>ACC-ROG-MOUSE-GLADIUS3</sku>
+    <name>ASUS ROG Gladius III Wireless</name>
+    <brand>ASUS ROG</brand>
+    <category>accessory</category>
+    <price>5995</price>
+    <stock>20</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <dpi>26000 DPI</dpi>
+      <wireless>true</wireless>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/F38517C3-9D47-468A-9232-13D8DD7F6D28/w260/fwebp</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.369Z</createdAt>
+    <updatedAt>2025-12-12T06:41:02.951Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc2e</id>
+    <sku>ACC-ROG-HEADSET-DELTA</sku>
+    <name>ASUS ROG Delta S Gaming Headset</name>
+    <brand>ASUS ROG</brand>
+    <category>accessory</category>
+    <price>9995</price>
+    <stock>11</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <mic>AI Noise Canceling</mic>
+      <audio>Hi-Res</audio>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/E4C7EB4C-9C4F-4A00-826E-B581BE704F8A/v1/img/kv/rog-delta-s-core.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.372Z</createdAt>
+    <updatedAt>2025-12-12T07:44:42.336Z</updatedAt>
+  </product>
+  <product>
+    <id>693bb403c228e61ab96ccc31</id>
+    <sku>ACC-ROG-MONITOR-XG27AQ</sku>
+    <name>ROG Strix OLED XG27ACDNG | 27 to 31.5 Inches</name>
+    <brand>ASUS ROG</brand>
+    <category>accessory</category>
+    <price>24995</price>
+    <stock>8</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <refresh>170Hz</refresh>
+      <resolution>1440p</resolution>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/AEEEEB76-572C-4F85-8727-77DCCA3073F0</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T06:19:47.376Z</createdAt>
+    <updatedAt>2025-12-12T16:23:34.516Z</updatedAt>
+  </product>
+  <product>
+    <id>693bc3513149f2a686789bd5</id>
+    <sku>FULL-ROG-ULTIMATE-4090</sku>
+    <name>ROG Ultimate Gaming Rig (RTX 4090 + Z790-E + 64GB DDR5 + 2TB SQ7 + Helios Case)</name>
+    <brand>ASUS ROG</brand>
+    <category>fullbuild</category>
+    <price>289965</price>
+    <stock>3</stock>
+    <type>fullbuild</type>
+    <disabled>false</disabled>
+    <specs>
+      <gpu>GPU-ROG-RTX4090-OC</gpu>
+      <mobo>MB-ROG-Z790-E</mobo>
+      <psu>PSU-ROG-THOR-1200P2</psu>
+      <ram>RAM-ROG-STRIX-64GB</ram>
+      <ssd>SSD-ROG-HYPERION-2TB</ssd>
+      <case>CASE-ROG-HELIOS</case>
+      <cooler>COOLER-ROG-RYUJIN3-360</cooler>
+    </specs>
+    <images>
+      <image>https://rog.asus.com/media/1754655347369.png</image>
+    </images>
+    <feedback>
+      <entry>
+        <userEmail>robeizagani@gmail.com</userEmail>
+        <comments>Ang mahal, mas mahal pa sa kidney ko.</comments>
+        <date>2025-12-12T07:58:16.626Z</date>
+        <reply>
+          <adminEmail>asusgogshop@gmail.com</adminEmail>
+          <comment>Benta mo lahat ng laman loob mo para maka bili ka.</comment>
+          <date>2025-12-12T08:00:24.662Z</date>
+        </reply>
+      </entry>
+      <entry>
+        <userEmail>robeizagani@gmail.com</userEmail>
+        <comments>Pwede hulugan?</comments>
+        <date>2025-12-12T07:59:45.283Z</date>
+        <reply>
+          <adminEmail>asusgogshop@gmail.com</adminEmail>
+          <comment>Baka patay kana dimo pa nababayaran.</comment>
+          <date>2025-12-12T08:00:49.680Z</date>
+        </reply>
+      </entry>
+    </feedback>
+    <createdAt>2025-12-12T07:25:05.487Z</createdAt>
+    <updatedAt>2025-12-12T08:00:49.685Z</updatedAt>
+  </product>
+  <product>
+    <id>693bc3513149f2a686789bd8</id>
+    <sku>FULL-ROG-4080S-ELITE</sku>
+    <name>ROG Elite Build (RTX 4080 SUPER + B760-F + 32GB DDR5 + 2TB SQ7 + Hyperion Case)</name>
+    <brand>ASUS ROG</brand>
+    <category>fullbuild</category>
+    <price>206965</price>
+    <stock>4</stock>
+    <type>fullbuild</type>
+    <disabled>false</disabled>
+    <specs>
+      <gpu>GPU-ROG-RTX4080S-OC</gpu>
+      <mobo>MB-ROG-B760-F</mobo>
+      <psu>PSU-ROG-LOKI-850</psu>
+      <ram>RAM-ROG-STRIX-32GB</ram>
+      <ssd>SSD-ROG-HYPERION-2TB</ssd>
+      <case>CASE-ROG-HYPERION</case>
+      <cooler>COOLER-ROG-RYUO3-240</cooler>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/files/media/87F606EE-FB9D-483A-AE34-FC745A967C99/v2/img/white/color-white.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T07:25:05.495Z</createdAt>
+    <updatedAt>2025-12-13T02:02:52.304Z</updatedAt>
+  </product>
+  <product>
+    <id>693bc3513149f2a686789bdb</id>
+    <sku>FULL-ROG-4070Ti-PRO</sku>
+    <name>ROG Pro Gaming PC (RTX 4070 Ti SUPER + Z790-E + 32GB DDR5 + 1TB SQ7 + Helios Case)</name>
+    <brand>ASUS ROG</brand>
+    <category>fullbuild</category>
+    <price>171965</price>
+    <stock>6</stock>
+    <type>fullbuild</type>
+    <disabled>false</disabled>
+    <specs>
+      <gpu>GPU-ROG-RTX4070TI-S</gpu>
+      <mobo>MB-ROG-Z790-E</mobo>
+      <psu>PSU-ROG-LOKI-850</psu>
+      <ram>RAM-ROG-STRIX-32GB</ram>
+      <ssd>SSD-ROG-HYPERION-1TB</ssd>
+      <case>CASE-ROG-HELIOS</case>
+      <cooler>COOLER-ROG-RYUO3-240</cooler>
+    </specs>
+    <images>
+      <image>https://dlcdnimgs.asus.com/websites/global/products/g2Pl47nZaToiPUKg/img/pic_FLEXIBLE_GRAPHICS_b.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T07:25:05.500Z</createdAt>
+    <updatedAt>2025-12-12T07:37:29.489Z</updatedAt>
+  </product>
+  <product>
+    <id>693bc3513149f2a686789bde</id>
+    <sku>FULL-ROG-4070-BALANCED</sku>
+    <name>ROG Balanced Build (RTX 4070 OC + B760-F + 32GB DDR5 + 1TB SQ7 + Helios Case)</name>
+    <brand>ASUS ROG</brand>
+    <category>fullbuild</category>
+    <price>121970</price>
+    <stock>7</stock>
+    <type>fullbuild</type>
+    <disabled>true</disabled>
+    <specs>
+      <gpu>GPU-ROG-RTX4070-OC</gpu>
+      <mobo>MB-ROG-B760-F</mobo>
+      <psu>PSU-ROG-LOKI-850</psu>
+      <ram>RAM-ROG-STRIX-32GB</ram>
+      <ssd>SSD-ROG-HYPERION-1TB</ssd>
+      <case>CASE-ROG-HELIOS</case>
+    </specs>
+    <images>
+      <image>https://dlcdnimgs.asus.com/websites/global/products/g2Pl47nZaToiPUKg/img/pic_FLEXIBLE_GRAPHICS_b.png</image>
+    </images>
+    <feedback>
+      <entry>
+        <userEmail>robeizagani@gmail.com</userEmail>
+        <comments>Pwede na, pwede na itapon</comments>
+        <date>2025-12-12T07:48:21.265Z</date>
+        <reply>
+          <adminEmail>asusgogshop@gmail.com</adminEmail>
+          <comment>who care's</comment>
+          <date>2025-12-12T07:48:45.021Z</date>
+        </reply>
+      </entry>
+    </feedback>
+    <createdAt>2025-12-12T07:25:05.507Z</createdAt>
+    <updatedAt>2025-12-12T08:05:07.342Z</updatedAt>
+  </product>
+  <product>
+    <id>693bc3513149f2a686789be1</id>
+    <sku>FULL-ROG-4060Ti-STARTER</sku>
+    <name>ROG Entry Gaming Build (RTX 4060 Ti + B760-F + 32GB DDR5 + 1TB SQ7 + Hyperion Case)</name>
+    <brand>ASUS ROG</brand>
+    <category>fullbuild</category>
+    <price>115970</price>
+    <stock>10</stock>
+    <type>fullbuild</type>
+    <disabled>false</disabled>
+    <specs>
+      <gpu>GPU-ROG-RTX4060TI</gpu>
+      <mobo>MB-ROG-B760-F</mobo>
+      <psu>PSU-ROG-LOKI-850</psu>
+      <ram>RAM-ROG-STRIX-32GB</ram>
+      <ssd>SSD-ROG-HYPERION-1TB</ssd>
+      <case>CASE-ROG-HYPERION</case>
+    </specs>
+    <images>
+      <image>https://www.ekfluidgaming.com/media/catalog/product/cache/6/image/x800/9df78eab33525d08d6e5fb8d27136e95/e/k/ek-fluidgaming-titan-hero-image_1.png</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T07:25:05.512Z</createdAt>
+    <updatedAt>2025-12-12T07:26:20.580Z</updatedAt>
+  </product>
+  <product>
+    <id>693bc5851f8c6db249776405</id>
+    <sku>CASE-ROG-HELIOS II</sku>
+    <name>ASUS Strix Helios II GX601S</name>
+    <brand>ASUS ROG</brand>
+    <category>case</category>
+    <price>27995</price>
+    <stock>3</stock>
+    <type>part</type>
+    <disabled>false</disabled>
+    <specs>
+      <type>Mid Tower</type>
+      <rgb>true</rgb>
+    </specs>
+    <images>
+      <image>https://dlcdnwebimgs.asus.com/gain/0B4F32D6-B7C0-442A-99E9-AB513DE9C891</image>
+    </images>
+    <feedback/>
+    <createdAt>2025-12-12T07:34:29.162Z</createdAt>
+    <updatedAt>2025-12-12T07:35:01.005Z</updatedAt>
+  </product>
+</products>

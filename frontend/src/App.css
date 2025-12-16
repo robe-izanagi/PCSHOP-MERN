@@ -1,0 +1,66 @@
+/* frontend/src/app.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Light theme variables (default) */
+:root {
+  --bg: #f6f8fb;
+  --white: #ffffff;
+  --light-dark: #f3f4f6;
+  --choco: #d4d4d8;
+  --dark: #333435;
+  --text: #071024;
+  --card: #ffffff;
+  --muted: #64748b;
+  --accent: #ea580c;
+  --accent-2: #06b6d4;
+  --glass: rgba(0, 0, 0, 0.03);
+  --radius: 12px;
+  --surface: rgba(11, 18, 30, 0.03);
+  --btn-text: #ffffff;
+  --font-heading: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body.dark {
+  --bg: #0f1724;
+  --white: #171718;
+  --light-dark: #1f2124;
+  --choco: #393d42;
+  --dark: #8c8e92;
+  --text: #e6eef6;
+  --card: #0b1220;
+  --muted: #94a3b8;
+  --accent: #ea580c;
+  --accent-2: #06b6d4;
+  --glass: rgba(255, 255, 255, 0.03);
+  --surface: rgba(255, 255, 255, 0.02);
+  --btn-text: #efffe0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(56, 56, 56, 0.63) rgba(24, 24, 24, 0);
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--card);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Small helpers that are used by module CSS */
+a {
+  color: var(--accent-2);
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Optional: style links / global components */

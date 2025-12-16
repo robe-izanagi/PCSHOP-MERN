@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+  width: 100%;
+  border: 2px solid var(--accent);
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 5px rgba(167, 44, 44, 0.47);
+  opacity: .8;
+  transition: 1s;
+}
+
+.container:hover,
+.container:focus {
+  opacity: 1;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<purchases>
+  <purchase>
+    <id>693bc7ea40da15b90a35fb45</id>
+    <fullname/>
+    <email>robeizagani@gmail.com</email>
+    <paymentType>paymaya</paymentType>
+    <quantity>2</quantity>
+    <total>131965</total>
+    <items>
+      <item>
+        <sku>ACC-ROG-HEADSET-DELTA</sku>
+        <name>ASUS ROG Delta S Gaming Headset</name>
+        <price>9995</price>
+        <qty>1</qty>
+      </item>
+      <item>
+        <sku>FULL-ROG-4070-BALANCED</sku>
+        <name>ROG Balanced Build (RTX 4070 OC + B760-F + 32GB DDR5 + 1TB SQ7 + Helios Case)</name>
+        <price>121970</price>
+        <qty>1</qty>
+      </item>
+    </items>
+    <purchasedAt>2025-12-12T07:44:42.359Z</purchasedAt>
+    <createdAt>2025-12-12T07:44:42.363Z</createdAt>
+    <updatedAt>2025-12-12T07:44:42.363Z</updatedAt>
+  </purchase>
+  <purchase>
+    <id>693cc94c40da15b90a35fca2</id>
+    <fullname/>
+    <email>robeizagani@gmail.com</email>
+    <paymentType>gcash</paymentType>
+    <quantity>1</quantity>
+    <total>206965</total>
+    <items>
+      <item>
+        <sku>FULL-ROG-4080S-ELITE</sku>
+        <name>ROG Elite Build (RTX 4080 SUPER + B760-F + 32GB DDR5 + 2TB SQ7 + Hyperion Case)</name>
+        <price>206965</price>
+        <qty>1</qty>
+      </item>
+    </items>
+    <purchasedAt>2025-12-13T02:02:52.356Z</purchasedAt>
+    <createdAt>2025-12-13T02:02:52.365Z</createdAt>
+    <updatedAt>2025-12-13T02:02:52.365Z</updatedAt>
+  </purchase>
+</purchases>

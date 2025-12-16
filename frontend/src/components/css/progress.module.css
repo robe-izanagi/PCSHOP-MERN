@@ -1,0 +1,93 @@
+.progress {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  display: inline-block;
+  --percent: 75; /* default, overridden by inline style from component */
+}
+
+/* SVG container rotated so progress starts at top */
+.svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  display: block;
+}
+
+/* invisible fill so layout stable */
+.track {
+  fill: none;
+  stroke: rgba(255,255,255,0.06);
+  stroke-width: 12;
+}
+
+/* segmented ring to mimic the blocks in your reference image */
+.segments {
+  fill: none;
+  stroke: rgba(95,150,255,0.12);
+  stroke-width: 12;
+  stroke-dasharray: 12 10; /* dash-gap pattern (tweak to get more/less segments) */
+  stroke-linecap: round;
+  transform-origin: 50% 50%;
+  transform: rotate(8deg); /* slight rotation to look more dynamic */
+}
+
+/* progress stroke (uses gradient) */
+.fill {
+  fill: none;
+  stroke: url(#grad);
+  stroke-width: 12;
+  stroke-linecap: round;
+  /* circumference for r=90 is ≈ 565.48 */
+  stroke-dasharray: 565.48;
+  stroke-dashoffset: calc(565.48 * (1 - var(--percent) / 100));
+  transition: stroke-dashoffset 900ms cubic-bezier(.22,.9,.4,1);
+  filter: drop-shadow(0 4px 8px rgba(20,40,80,0.45));
+}
+
+/* center "face" */
+.inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 64%;
+  height: 64%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* subtle inner style similar to your picture */
+  background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.02), rgba(0,0,0,0.25));
+  backdrop-filter: blur(2px);
+  color: white;
+  text-align: center;
+}
+
+/* percent number */
+.percent {
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+/* small label under the percent */
+.label {
+  margin-top: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  opacity: 0.9;
+  color: #cfe7ff;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+/* responsive scaling (optional) */
+@media (max-width: 420px) {
+  .progress { width: 160px; height: 160px; }
+  .percent { font-size: 1.4rem; }
+}

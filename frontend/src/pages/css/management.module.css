@@ -1,0 +1,530 @@
+/* frontend/src/pages/css/management.module.css
+   Full CSS for AdminManagement (all colors use var(...) from :root theme)
+*/
+
+/* container & globals */
+.container {
+  background: var(--card);
+  min-height: 100vh;
+  padding: 32px;
+  color: var(--text);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* card */
+.card {
+  background: var(--glass);
+  border-radius: var(--radius);
+  padding: 18px;
+  max-width: 1080px;
+  margin: 0 auto;
+  box-shadow: 0 8px 30px var(--surface);
+  min-width: fit-content;
+  border: 1px solid var(--surface);
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: var(--text);
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* layout columns */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 20px;
+}
+
+/* left column (form) */
+.form {
+  background: var(--glass);
+  padding: 14px;
+  border-radius: calc(var(--radius) - 2px);
+  border: 1px solid var(--surface);
+}
+
+/* right column (summary) */
+.side {
+  position: sticky;
+  top: 32px;
+  height: fit-content;
+  background: var(--glass);
+  padding: 14px;
+  border-radius: calc(var(--radius) - 2px);
+  border: 1px solid var(--surface);
+}
+
+/* form rows */
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.row.inline {
+  flex-direction: row;
+  align-items: center;
+}
+
+.label {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.input,
+.select {
+  background: var(--glass);
+  border: 1px solid var(--surface);
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--text);
+  outline: none;
+  transition: box-shadow .15s, border-color .15s;
+  font-size: 14px;
+}
+
+.input:focus,
+.select:focus {
+  box-shadow: 0 4px 18px var(--surface);
+  border-color: var(--accent);
+}
+
+.select option {
+  background: var(--card);
+}
+
+/* buttons (uses CSS variables for color) */
+.btn {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: var(--btn-text);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 6px 20px var(--surface);
+}
+
+.secondary {
+  background: var(--glass);
+  border: 1px solid var(--surface);
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* radio & extras groups */
+.radioGroup,
+.extrasList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radioInline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* parts row */
+.partsRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.partSelect {
+  flex: 1;
+}
+
+.qtyInput {
+  width: 72px;
+}
+
+/* summary box */
+.summaryTitle {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: var(--glass);
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* receipt */
+.receipt {
+  margin-top: 14px;
+  padding: 10px;
+  background: var(--surface);
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 13px;
+  white-space: pre-wrap;
+  color: var(--text);
+}
+
+/* table wrap utility used by management */
+.tableWrap {
+  overflow-x: auto;
+}
+
+/* small helpers already used across files */
+.kv {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.badge {
+  background: var(--surface);
+  color: var(--muted);
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+/* extra utilities for inline -> class conversion below */
+/* spacing utilities */
+.mt4 {
+  margin-top: 4px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb12 {
+  margin-bottom: 12px;
+}
+
+/* flex utilities */
+.flex {
+  display: flex;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gap8 {
+  gap: 8px;
+}
+
+.gap12 {
+  gap: 12px;
+}
+
+/* wrap and sizing utilities */
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.minWidth300 {
+  min-width: 300px;
+}
+
+/* fixed widths (used for inputs) */
+.w160 {
+  width: 160px;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.w120 {
+  width: 120px;
+}
+
+/* text/utilities */
+.center {
+  text-align: center;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* small button variants used in management actions */
+.btnSmall {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: var(--btn-text);
+  box-shadow: 0 6px 18px var(--surface);
+}
+
+.iconBtn {
+  background: transparent;
+  border: 1px solid var(--surface);
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--text);
+}
+
+/* search area common in management */
+.searchRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 11px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--surface);
+  background: var(--glass);
+  color: var(--text);
+}
+
+.searchInput:hover,
+.searchInput:focus {
+  outline: none;
+  border: 1px solid var(--accent);
+}
+
+/* product grid & item */
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.productItem {
+  border-radius: 10px;
+  padding: 12px;
+  background: var(--glass);
+  border: 1px solid var(--surface);
+}
+
+.thumb {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.itemContent {
+  flex: 1;
+  justify-self: end;
+}
+
+.price {
+  margin-top: 8px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+/* status text */
+.statusDisabled {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.statusActive {
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.oos {
+  color: var(--accent);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* feedback area */
+.feedbackBlock {
+  margin-top: 12px;
+  border-top: 1px solid var(--surface);
+  padding-top: 10px;
+}
+
+.feedbackHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedbackItem {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--surface);
+}
+
+.commentText {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.metaText {
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.6;
+  margin-top: 6px;
+}
+
+.adminReply {
+  margin-top: 8px;
+  background: var(--surface);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.adminReplyTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* reply area */
+.replyArea {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 64px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--surface);
+  background: var(--card);
+  color: var(--text);
+}
+
+/* buttons row */
+.btnRow {
+  display: flex;
+  gap: 8px;
+}
+
+/* row items used in lists */
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--surface);
+  color: var(--text);
+}
+
+.itemTitle {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.itemMeta {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* responsive */
+@media (max-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .side {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 490px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+}
