@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import ModelComputer from "../ModelComputer";
 import styles from "./css/landing.module.css";
 import Asus from "../assets/image/asus.png";
-import Logo from "../assets/image/logo-1.png";
 import ChatAI from "../components/ChatAI";
 import MapComponent from "../components/MapComponents";
 import ProgressMicro from "../components/micro/ProgressMicro";
@@ -23,7 +21,6 @@ import {
   FaMessage,
 } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
-const ModelComputer = React.lazy(() => import("../ModelComputer"));
 
 export default function Landing() {
   const nav = useNavigate();
