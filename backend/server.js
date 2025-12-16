@@ -21,5 +21,5 @@ app.use('/products', require('./routes/products'));
 
 app.get('/', (req, res) => res.send('PC Shop Backend (MongoDB) Running...'));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 'https://pcshop-mern-backend-rpep.onrender.com';
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
