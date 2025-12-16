@@ -682,7 +682,7 @@ export default function Landing() {
 
               <button
                 type="button"
-                onClick={nav("/login-admin")}
+                onClick={() => nav("/login-admin")}
                 className={styles.contactBtn}
               >
                 Login Admin
