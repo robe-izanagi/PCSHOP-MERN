@@ -67,15 +67,11 @@
   height: 100vh;
   min-height: 100vh;
   display: block;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
   overflow: hidden;
 }
 
 .contact {
   display: block;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
   overflow: hidden;
   height: 20vh;
   width: 100%;
