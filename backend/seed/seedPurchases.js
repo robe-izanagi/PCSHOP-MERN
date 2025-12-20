@@ -4,13 +4,12 @@ const Purchase = require('../models/Purchase');
 
 (async () => {
   try {
-    await connectDB(process.env.MONGO_URI || 'mongodb://localhost:27017/pcshop_db');
+    await connectDB(process.env.MONGO_URI);
 
     const purchases = [
 
 
       {
-        fullname: 'Juan Dela Cruz',
         email: 'juan@gmail.com',
         paymentType: 'gcash',
         quantity: 1,
@@ -27,7 +26,6 @@ const Purchase = require('../models/Purchase');
       },
 
       {
-        fullname: 'Maria Santos',
         email: 'maria@gmail.com',
         paymentType: 'paymaya',
         quantity: 2,
@@ -50,7 +48,6 @@ const Purchase = require('../models/Purchase');
       },
 
       {
-        fullname: 'Kevin Reyes',
         email: 'kevin@gmail.com',
         paymentType: 'gcash',
         quantity: 1,
@@ -67,7 +64,6 @@ const Purchase = require('../models/Purchase');
       },
 
       {
-        fullname: 'Angela Lim',
         email: 'angela@gmail.com',
         paymentType: 'credit_card',
         quantity: 1,
@@ -84,7 +80,6 @@ const Purchase = require('../models/Purchase');
       },
 
       {
-        fullname: 'Roberto Farol',
         email: 'robeizagani@gmail.com',
         paymentType: 'paymaya',
         quantity: 2,
@@ -107,7 +102,6 @@ const Purchase = require('../models/Purchase');
       },
 
       {
-        fullname: 'Christian Bautista',
         email: 'cb@gmail.com',
         paymentType: 'gcash',
         quantity: 1,
@@ -125,7 +119,6 @@ const Purchase = require('../models/Purchase');
 
 
       {
-        fullname: 'Tech Buyer',
         email: 'techbuyer@gmail.com',
         paymentType: 'gcash',
         quantity: 3,
@@ -155,7 +148,6 @@ const Purchase = require('../models/Purchase');
 
 
       {
-        fullname: 'Hardcore Gamer',
         email: 'gamer@gmail.com',
         paymentType: 'credit_card',
         quantity: 1,

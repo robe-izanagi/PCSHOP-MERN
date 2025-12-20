@@ -1,19 +1,18 @@
-require('dotenv').config({ path: '.env.local' });
+require('dotenv').config();
 const connectDB = require('../config/db');
 const User = require('../models/User');
 const bcrypt = require('bcrypt');
 
 (async () => {
   try {
-    await connectDB(process.env.MONGO_URI || 'mongodb://localhost:27017/pcshop_db');
+    await connectDB(process.env.MONGO_URI);
 
     const users = [
-      { email: 'robeizagani@gmail.com', name: 'Robe Izagani', emailVerified: true },
-      { email: 'robertofarol10145@gmail.com', name: 'Roberto Jr. Farol', emailVerified: true },
-      { email: 'ana.santos@example.com', name: 'Ana Santos', emailVerified: true },
-      { email: 'juan.delacruz@example.com', name: 'Juan Dela Cruz', emailVerified: true },
-      { email: 'marie.quezon@example.com', name: 'Marie Quezon', emailVerified: true },
-      { email: 'test.user@example.com', name: 'Test User', emailVerified: false }
+      { email: 'robeizagani@gmail.com', emailVerified: true },
+      { email: 'ana.santos@example.com', emailVerified: true },
+      { email: 'juan.delacruz@example.com', emailVerified: true },
+      { email: 'marie.quezon@example.com', emailVerified: true },
+      { email: 'test.user@example.com',  emailVerified: false }
     ];
 
     const plainPassword = 'password123';

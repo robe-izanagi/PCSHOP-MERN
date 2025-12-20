@@ -1,10 +1,10 @@
-require('dotenv').config({ path: '.env.local' });
+require('dotenv').config();
 const connectDB = require('../config/db');
 const Product = require('../models/Product');
 
 (async () => {
   try {
-    await connectDB(process.env.MONGO_URI || 'mongodb://localhost:27017/pcshop_db');
+    await connectDB(process.env.MONGO_URI);
     const products = [
       {
         sku: 'GPU-ROG-RTX4090-OC',
